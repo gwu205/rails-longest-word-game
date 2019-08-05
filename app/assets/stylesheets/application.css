@@ -13,15 +13,28 @@
  *= require_tree .
  *= require_self
  */
+@import url('https://fonts.googleapis.com/css?family=Monoton&display=swap');
+
 body {
   background: #fafafa;
 }
 
+h1 {
+  font-family: 'Monoton', cursive;
+  font-size: 3rem;
+  font-weight: normal;
+  color: white;
+  text-shadow: 0 2px 8px #fdffe0;
+  margin-top: 0;
+}
+
 .container {
-  background: white;
+  background: #679fc2;
+  box-shadow: 0 6px 12px rgba(0,0,0,0.4);
+  border-radius: 12px;
   width: 100%;
   max-width: 500px;
-  margin: 0 auto;
+  margin: 30px auto;
   text-align: center;
   padding: 30px;
 }

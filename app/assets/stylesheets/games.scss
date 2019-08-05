@@ -21,3 +21,34 @@
   color: white;
   background: #295a9e;
 }
+
+form {
+  display: flex;
+  justify-content: center;
+  align-items: stretch;
+  margin: 30px auto;
+}
+
+.input {
+  margin: 0;
+  border-radius: 4px 0 0 4px;
+  border: 1px solid #ccc;
+}
+
+.submit {
+  background: white;
+  border: 1px solid #ddd;
+  padding: 10px;
+  margin-left: -1px;
+  border-radius: 0 4px 4px 0;
+  transition: all 0.2s ease-out;
+  &:hover {
+    background: #eee;
+    cursor: pointer;
+  }
+}
+
+p {
+  text-align: center;
+  color: white;
+}
